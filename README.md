@@ -1,4 +1,4 @@
-# Distributed algorithm for finding the median
+# A distributed algorithm for finding the median value
 ## Problem Description
 You have a few thousands servers in your network. Each server stores a huge list of integers. How do you find the overall median?
 
