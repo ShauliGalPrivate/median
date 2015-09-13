@@ -25,7 +25,7 @@ You have a few thousands servers in your network. Each server stores a huge list
 
 ## Implementation
 The project is built of 3 components:
-libmedian.a: a library holding the master/slave logic.
-cloudmedian: a command-line interface for driving the library.
-median_test: a unit-testing program that validates the library logic.
+* **libmedian.a**: a library holding the master/slave logic.
+* **cloudmedian**: a command-line interface for driving the library.
+* **median_test**: a unit-testing program that validates the library logic.
 ![Block Diagram](https://raw.github.com/ShauliGalPrivate/median/master/median_blocks.png)
