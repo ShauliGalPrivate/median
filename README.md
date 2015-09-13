@@ -1,4 +1,7 @@
-# A distributed algorithm for finding the median value
+# Cloud Median
+
+## A distributed algorithm for finding the median value
+
 ## Problem Description
 You have a few thousands servers in your network. Each server stores a huge list of integers. How do you find the overall median?
 
@@ -19,3 +22,10 @@ You have a few thousands servers in your network. Each server stores a huge list
 8. Implement the master side and test it in a single-process mode.
 9. Replace the simulation framework with a TCP-based communication.
 10. Simulate the servers as daemons in the same machine.
+
+## Implementation
+The project is built of 3 components:
+* **libmedian.a**: a library holding the master/slave logic.
+* **cloudmedian**: a command-line interface for driving the library.
+* **median_test**: a unit-testing program that validates the library logic.
+![Block Diagram](https://raw.github.com/ShauliGalPrivate/median/master/median_blocks.png)
