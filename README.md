@@ -29,3 +29,4 @@ The project is built of 3 components:
 * **cloudmedian**: a command-line interface for driving the library.
 * **median_test**: a unit-testing program that validates the library logic.
 ![Block Diagram](https://raw.github.com/ShauliGalPrivate/median/master/median_blocks.png)
+
